@@ -78,3 +78,20 @@ a#pdf:hover { background: #222; }
 
 /* Add spacing to contact info lines so they have breathing room */
 #yui-u-contact h3{ padding-bottom: 3%; }
+
+/* Split sections into two columns */
+.column-left{ width: 44%; margin-right: 6%; float: left; }
+.column-right{ width: 44%; float: left; }
+
+/* Adjust borders for columned containers */
+#yui-gf-profile{ border-bottom: none; }
+.column-left{ padding-top: 4%; border-top: 1px solid #ccc; }
+.column-right{ padding-top: 4%; border-top: 1px solid #ccc; }
+
+/* Adjust containers to fit well within borders */
+.column-left div.yui-gf div.yui-u{ width: 100%; float: left; }
+.column-left div.yui-gf div.first{ padding-bottom: 3%; }
+.column-right div.yui-gf div.yui-u{ width: 100%; float: left; }
+.column-right div.yui-gf div.first{ padding-bottom: 3%; }
+
+.column-left div.yui-gf div.yui-u div.talent{ width: 100%; }
