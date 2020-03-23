@@ -19,7 +19,7 @@
 
 /* //-- yui-grids style overrides -- */
 body { font-family: Georgia; color: #444; }
-#inner { padding: 10px 80px; margin: 80px auto; background: #ffffff; border: solid #151515; border-width: 8px 0 2px 0; }
+#inner { padding: 10px 80px; margin: 80px auto; background: #ffffff; }
 .yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
 
 /* //-- header, body, footer -- */
@@ -80,8 +80,8 @@ a#pdf:hover { background: #222; }
 #yui-u-contact h3{ padding-bottom: 3%; }
 
 /* Split sections into two columns */
-.column-left{ width: 44%; margin-right: 6%; float: left; }
-.column-right{ width: 44%; float: left; }
+.column-left{ width: 39%; margin-right: 6%; float: left; }
+.column-right{ width: 49%; float: left; }
 
 /* Adjust borders for columned containers */
 #yui-gf-profile{ border-bottom: none; }
