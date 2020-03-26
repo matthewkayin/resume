@@ -11,6 +11,8 @@
 ---------------------------------------------------------------------------------
 */
 
+@page{ width: 5.5in; height: 8.5in; margin: 0; overflow: hidden; }
+#doc2{ width: 100%; }
 
 .msg { padding: 10px; background: #222; position: relative; }
 .msg h1 { color: #fff;  }
@@ -19,11 +21,11 @@
 
 /* //-- yui-grids style overrides -- */
 body { font-family: Georgia; color: #444; }
-#inner { padding: 10px 80px; margin: 80px auto; background: #ffffff; }
-.yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+#inner { padding: 0px 20px; margin: 5px auto; background: #ffffff; }
+.yui-gf { margin-bottom: 2em; padding-bottom: 0em; border-bottom: 1px solid #ccc; }
 
 /* //-- header, body, footer -- */
-#hd { margin: 2.5em 0 3em 0; padding-bottom: 1.5em; border-bottom: 1px solid #ccc }
+#hd { margin: 0.5em 0 1.5em 0; padding-bottom: 0.5em; border-bottom: 1px solid #ccc }
 #hd h2 { text-transform: uppercase; letter-spacing: 2px; }
 #bd, #ft { margin-bottom: 2em; }
 
@@ -37,7 +39,7 @@ h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3 { color: #191919; }
 h4 { color: #3a3a3a; }
-p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+p { font-size: 100%; line-height: 18px; padding-right: 1em; }
 a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
@@ -54,9 +56,9 @@ p.enlarge span { color: #000 }
 a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
 a#pdf:hover { background: #222; }
 
-.job { position: relative; margin-bottom: 3em; padding-bottom: 0.2em; border-bottom: 1px solid #ccc; }
+.job { position: relative; margin-bottom: 1.5em; padding-bottom: 0.2em; border-bottom: 1px solid #ccc; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
-.job p { margin: 0.75em 0 3em 0; }
+.job p { margin: 0.75em 0 1em 0; }
 
 .last { border: none; }
 .skills-list {  }
@@ -78,16 +80,16 @@ a#pdf:hover { background: #222; }
 #yui-u-contact{ width: 35%; }
 
 /* Add spacing to contact info lines so they have breathing room */
-#yui-u-contact h3{ padding-bottom: 3%; }
+#yui-u-contact h3{ float: right; font-size: 110%; padding-bottom: 1%; }
 
 /* Split sections into two columns */
-.column-left{ width: 39%; margin-right: 6%; float: left; }
-.column-right{ width: 49%; float: left; }
+.column-left{ width: 38%; margin-right: 6%; float: left; }
+.column-right{ width: 56%; float: left; }
 
 /* Adjust borders for columned containers */
 #yui-gf-profile{ border-bottom: none; }
-.column-left{ padding-top: 4%; border-top: 1px solid #ccc; }
-.column-right{ padding-top: 4%; border-top: 1px solid #ccc; }
+.column-left{ padding-top: 1em; border-top: 1px solid #ccc; }
+.column-right{ padding-top: 1em; border-top: 1px solid #ccc; }
 
 /* Adjust containers to fit well within borders */
 .column-left div.yui-gf div.yui-u{ width: 100%; float: left; }
@@ -95,5 +97,10 @@ a#pdf:hover { background: #222; }
 .column-right div.yui-gf div.yui-u{ width: 100%; float: left; }
 .column-right div.yui-gf div.first{ padding-bottom: 3%; }
 
+.column-left .yui-gf{ margin-bottom: 1em; }
+.column-right .yui-gf{ margin-bottom: 1em; }
+
 .column-left div.yui-gf div.yui-u div.talent{ width: 100%; }
 .talent{ padding-bottom: 3%; }
+
+.talent p{ padding-bottom: 1%; }
